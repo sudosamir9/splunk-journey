@@ -1,0 +1,69 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# Secrets — NEVER commit
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.crt
+id_rsa
+id_ed25519
+secrets/
+credentials/
+.aws/
+.azure/
+
+# Splunk-specific
+*.lic
+*.License
+splunk.license
+**/local/server.conf
+**/local/web.conf
+**/local/authentication.conf
+**/local/passwd
+hashFile
+**/etc/auth/
+**/etc/passwd
+
+# Azure
+azure-credentials.json
+*.pfx
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*.cache
+
+# NotebookLM exports — keep inputs public, outputs local
+99-notebooklm/**/exports/
+
+# Node / Python (if/when added)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Terraform (when added later)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!example.tfvars
