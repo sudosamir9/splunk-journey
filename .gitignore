@@ -8,10 +8,8 @@ desktop.ini
 # VS Code
 .vscode/
 
-# Obsidian
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache/
+# Obsidian (vault config — local only, do not push)
+.obsidian/
 .trash/
 
 # Secrets — NEVER commit
